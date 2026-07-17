@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikshitha | Data Analytics Portfolio</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f9; color: #333; margin: 0; padding: 40px 20px; }
+        .container { max-width: 1000px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { color: #1e3a8a; margin-bottom: 5px; }
+        .subtitle { color: #666; font-size: 1.1rem; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 30px; }
+        .card { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); padding: 25px; border-top: 5px solid #2563eb; }
+        .card h2 { margin-top: 0; color: #1e3a8a; }
+        .tags { margin: 10px 0 20px 0; }
+        .tag { background: #e0f2fe; color: #0369a1; padding: 5px 12px; border-radius: 15px; font-size: 0.85rem; font-weight: bold; margin-right: 5px; }
+        .iframe-container { position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin-top: 15px; border: 1px solid #ddd; border-radius: 4px; overflow: hidden; }
+        .iframe-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+        .details { line-height: 1.6; color: #4b5563; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Dikshitha</h1>
+        <p class="subtitle">Data Analytics & Cloud Infrastructure Portfolio</p>
+    </header>
+
+    <div class="grid">
+        <!-- Project Card 1: Auto Policy Analysis -->
+        <div class="card">
+            <h2>Automotive Policy & Risk Performance Dashboard</h2>
+            <div class="tags">
+                <span class="tag">Power BI</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">DAX</span>
+            </div>
+            <div class="details">
+                <p><strong>Business Objective:</strong> Analyzed 2,000 auto insurance policies to extract metrics around total premiums, average risk scores, and overall loss ratios across distinct geographic zones.</p>
+                <p><strong>Technical Scope:</strong> Built end-to-end relational data pipelines staging clean structured rows inside a local PostgreSQL instance, optimized data schemas for rapid Power Query execution, and crafted custom DAX calculations to resolve total aggregation anomalies.</p>
+            </div>
+            
+            <div class="iframe-container">
+                <iframe src="https://app.powerbi.com/groups/me/reports/71e760e5-53af-4af9-8fc9-7ab3154945c3/ab626241ffdab43f37f3?experience=power-bi" frameborder="0" allowFullScreen="true"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
